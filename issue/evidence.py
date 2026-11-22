@@ -14,5 +14,5 @@ def build_evidence(snapshot: FrozenRevision) -> EvidenceBody:
     differences = []
     for pair in snapshot.pairs:
         center, first, second = calibrated_difference(pair, snapshot.settings)
-        differences.append((center, abs(first), abs(second)))
+        differences.append((center, first, second))
     return EvidenceBody(snapshot.settings, tuple(differences))
