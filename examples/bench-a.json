@@ -1,0 +1,9 @@
+{
+  "bench": "A",
+  "batch": "day-01",
+  "settings": ["u", "v"],
+  "pairs": [
+    {"pair_id": "a1", "specimen": "station-a-10", "left": "1/5", "right": 1000, "left_unit": "cm", "right_unit": "um", "offset": 0, "coefficients": {"u": 1, "v": 0}},
+    {"pair_id": "a2", "specimen": "station-a-11", "left": 2, "right": 1, "left_unit": "mm", "right_unit": "mm", "offset": 0, "coefficients": {"u": -1, "v": 0}}
+  ]
+}
